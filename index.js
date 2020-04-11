@@ -1,6 +1,5 @@
 import Api from './block/api/Api.js';
 import WeatherForecast from './block/search/WeatherForecast.js';
-import './style.css';
 
 const api = new Api({
   baseUrl: 'http://api.openweathermap.org/data/2.5/weather',
