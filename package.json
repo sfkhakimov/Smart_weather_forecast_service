@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/SFKhakimov/Smart_weather_forecast_service/issues"
   },
-  "homepage": "https://github.com/SFKhakimov/Smart_weather_forecast_service#readme",
+  "homepage": "https://github.com/SFKhakimov/Smart_weather_forecast_service",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
