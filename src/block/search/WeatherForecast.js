@@ -29,7 +29,7 @@ export default class WeatherForecast {
   recommendations(temp, status) {
     let recommendTemp = '';
     let recommendStatus = '';
-    if (temp < 0) {
+    if (temp <= 0) {
       recommendTemp = 'Оденьте зимнюю куртку';
     } else if (temp > 0 && temp < 10) {
       recommendTemp = 'Оденьте куртку';

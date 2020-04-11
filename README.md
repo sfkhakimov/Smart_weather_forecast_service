@@ -15,4 +15,4 @@ npm install
 npm run dev
 ```
 ## Версия
-1.0.0
+1.0.1
