@@ -1,0 +1,9 @@
+.search__city {
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  outline: none;
+}
