@@ -8,18 +8,25 @@
 </head>
 <body>
 
-  <div class="page">
+  <header class="header">
+    <h1 class="header__title">Умный сервис прогноза погоды</h1>
+  </header>
 
-    <header class="header">
-      <h1 class="header__title">Умный сервис прогноза погоды</h1>
-    </header>
+  <div class="page">
 
     <section class="search">
       <h2 class="search__title">Заполните форму</h2>
       <form action="" class="search__form">
         <input type="text" class="search__city" placeholder="Введите название города" required>
-        <button class="search__button"> Кнопка</button>
+        <button class="search__button">Узнать погоду</button>
       </form>
+
+      <div class="search__result">
+        <p class="search__result-text"></p>
+      </div>
+      <img src="" alt="Картинка с погодой" class="search__image">
+
+      <p class="search__recommendations"></p>
     </section>
 
   </div>

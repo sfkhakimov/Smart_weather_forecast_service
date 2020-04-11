@@ -10,8 +10,6 @@ export default class Api {
           return res.json();
         }
       })
-      .catch((err) => {
-        console.log(err.message);
-      });
+      .catch((err) => err);
   }
 }

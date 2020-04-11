@@ -1,3 +1,11 @@
 .search__button {
-  height: 30px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f55d5d;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
 }

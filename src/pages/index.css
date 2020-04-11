@@ -3,3 +3,13 @@
 @import url(../block/page/page.css);
 @import url(../block/header/header.css);
 @import url(../block/search/search.css);
+
+body {
+  background-image: url(../images/sacha-styles-LBSA21QQqCY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto-light';
+  font-style:  normal;
+  font-weight: 400;
+}

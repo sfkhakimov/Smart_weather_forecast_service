@@ -8,7 +8,10 @@ const api = new Api({
   id: 'appid=8dbbafb6705827f1f8d0a462fe98dc21',
 });
 
-const weatherForecast = new WeatherForecast(api, document.querySelector('.search__city'));
+const weatherForecast = new WeatherForecast(api,
+  document.querySelector('.search__result-text'),
+  document.querySelector('.search__image'),
+  document.querySelector('.search__recommendations'));
 const city = document.querySelector('.search__city');
 const form = document.querySelector('.search__form');
 
